@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conselho de IA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="mesa.css">
+</head>
+<body>
+
+<header class="cabecalho">
+  <div class="marca"><span class="selo"></span>Conselho de IA</div>
+  <div class="fases" id="fases">
+    <span data-fase="aberto">Abertura</span><span data-fase="debate">Debate</span><span data-fase="votacao">Votação</span><span data-fase="encerrado">Veredito</span>
+  </div>
+  <div class="ao-vivo" id="aoVivo"><i></i>Em sessão</div>
+</header>
+
+<main class="sala">
+  <section class="pauta">
+    <div class="rotulo" id="rotuloPauta">A decisão em pauta</div>
+    <h1 id="pergunta">Aguardando o conselho…</h1>
+    <p id="contexto"></p>
+  </section>
+
+  <section class="mesa" id="mesa">
+    <div class="tampo"><div class="veio"></div></div>
+    <div class="assentos" id="assentos"></div>
+    <article class="palco" id="palco">
+      <div class="palco-vazio" id="palcoVazio">
+        <p>Peça ao Claude Code:</p>
+        <code>/conselho devo largar meu emprego para viver do meu canal?</code>
+      </div>
+      <div class="fala-atual" id="falaAtual" hidden>
+        <div class="quem"><span class="mini" id="falaRetrato"></span><div><b id="falaNome"></b><small id="falaTitulo"></small></div><span class="responde" id="falaResponde" hidden></span></div>
+        <p id="falaTexto"></p>
+      </div>
+    </article>
+  </section>
+
+  <aside class="ata">
+    <div class="ata-topo"><span class="rotulo">Ata da reunião</span><span id="contador">0 falas</span></div>
+    <ol id="ata"></ol>
+  </aside>
+</main>
+
+<section class="veredito" id="veredito" hidden>
+  <div class="veredito-caixa">
+    <button class="fechar" id="fecharVeredito" aria-label="Fechar">×</button>
+    <div class="v-topo">
+      <div>
+        <div class="rotulo">Veredito do conselho</div>
+        <h2 id="vTitulo"></h2>
+        <p class="v-resumo" id="vResumo"></p>
+      </div>
+      <div class="v-nota">
+        <svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52" class="trilho"/><circle cx="60" cy="60" r="52" class="arco" id="vArco"/></svg>
+        <div><b id="vNota">–</b><small>nota média</small></div>
+        <span class="v-decisao" id="vDecisao"></span>
+      </div>
+    </div>
+    <div class="v-placar" id="vPlacar"></div>
+    <div class="v-grade">
+      <div><h3>Condições</h3><ul id="vCondicoes"></ul></div>
+      <div><h3>Riscos</h3><ul id="vRiscos"></ul></div>
+      <div><h3>Próximos 7 dias</h3><ol id="vPassos"></ol></div>
+    </div>
+    <h3 class="v-votos-titulo">Como cada um votou</h3>
+    <div class="v-votos" id="vVotos"></div>
+    <div class="v-acoes">
+      <button id="btnPdf" class="primario">Salvar relatório em PDF</button>
+      <button id="btnReassistir">Reassistir o debate</button>
+    </div>
+  </div>
+</section>
+
+<section class="relatorio" id="relatorio"></section>
+
+<script src="avatares.js"></script>
+<script src="mesa.js"></script>
+</body>
+</html>

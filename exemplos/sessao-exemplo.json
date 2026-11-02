@@ -1,0 +1,255 @@
+{
+  "id": "20261102-013325-publicar-ferramentas-gratis-no-github-aj",
+  "pergunta": "Publicar ferramentas grátis no GitHub ajuda ou atrapalha a venda da Fábrica de Canais?",
+  "contexto": "O pack custa R$ 397 e tem 7 skills que não vão mudar. A ideia é recriar ferramentas open source em português, publicar de graça e divulgar cada uma em 1 ou 2 vídeos do Canal 2.",
+  "criado": "2026-11-02T01:33:25",
+  "conselho": [
+    "rita",
+    "bia",
+    "caio",
+    "leo",
+    "mauro"
+  ],
+  "estado": "encerrado",
+  "rodada": 3,
+  "eventos": [
+    {
+      "tipo": "rodada",
+      "numero": 1,
+      "titulo": "Primeiras impressões",
+      "n": 1,
+      "t": 1793594005.2514882
+    },
+    {
+      "tipo": "fala",
+      "quem": "presidente",
+      "texto": "Duas ferramentas já estão no ar e outras três estão na fila. A pergunta é simples: dar de graça vende ou canibaliza o pack? Rita, começa.",
+      "rodada": 1,
+      "responde": null,
+      "n": 2,
+      "t": 1793594005.4782763
+    },
+    {
+      "tipo": "fala",
+      "quem": "rita",
+      "texto": "Grátis bem feito é a melhor isca que existe. Só que isca sem anzol é caridade. Cada repositório precisa terminar num próximo passo claro: um link para a aula grátis do pack, não só um 'feito pela Fábrica' no rodapé.",
+      "rodada": 1,
+      "responde": null,
+      "n": 3,
+      "t": 1793594006.7892292
+    },
+    {
+      "tipo": "fala",
+      "quem": "bia",
+      "texto": "Gente, isso é ouro para o Canal 2. 'Ditei uma mensagem sem internet' é gancho de Short que se escreve sozinho. Uma ferramenta nova por semana vira série, e série cria hábito de voltar no canal.",
+      "rodada": 1,
+      "responde": null,
+      "n": 4,
+      "t": 1793594007.0246408
+    },
+    {
+      "tipo": "fala",
+      "quem": "caio",
+      "texto": "Dois pontos. Primeiro: isso é decisão de mão dupla, barata de testar e fácil de parar. Segundo: o ativo de longo prazo não é cada ferramenta, é a reputação de 'quem faz automação em português que funciona'. Isso o concorrente não copia rápido.",
+      "rodada": 1,
+      "responde": null,
+      "n": 5,
+      "t": 1793594007.2629526
+    },
+    {
+      "tipo": "fala",
+      "quem": "leo",
+      "texto": "Falando como alguém de 30 anos que quer renda extra com canal: eu baixaria o ditado na hora. Agora, pagar 397 eu só pago se já tiver visto vocês me entregarem algo útil antes. O grátis é o que me faz confiar.",
+      "rodada": 1,
+      "responde": null,
+      "n": 6,
+      "t": 1793594007.5497239
+    },
+    {
+      "tipo": "fala",
+      "quem": "mauro",
+      "texto": "Bonito. Agora a premissa frágil: quem baixa ferramenta grátis no GitHub é o mesmo público que compra pack de 397? Programador curioso adora estrela no repositório e odeia pagar. Vocês podem estar enchendo o funil com a pessoa errada.",
+      "rodada": 1,
+      "responde": null,
+      "n": 7,
+      "t": 1793594007.7779944
+    },
+    {
+      "tipo": "rodada",
+      "numero": 2,
+      "titulo": "Embate",
+      "n": 8,
+      "t": 1793594027.4655252
+    },
+    {
+      "tipo": "fala",
+      "quem": "bia",
+      "texto": "Mauro, ponto justo, mas o vídeo não é para o programador. Quem vê o Short do ditado é o cara que quer canal e nunca abriu um terminal. O GitHub é só a prateleira; o público vem do Canal 2.",
+      "rodada": 2,
+      "responde": "mauro",
+      "n": 9,
+      "t": 1793594027.675525
+    },
+    {
+      "tipo": "fala",
+      "quem": "mauro",
+      "texto": "Então o risco muda: esse cara chega no GitHub, vê 'instale o Python, rode o instalar.bat' e trava. Grátis que dá trabalho para instalar vira frustração com a marca de vocês estampada.",
+      "rodada": 2,
+      "responde": "bia",
+      "n": 10,
+      "t": 1793594027.9011004
+    },
+    {
+      "tipo": "fala",
+      "quem": "rita",
+      "texto": "E aí está a venda. Quem travou na instalação é exatamente quem paga por aula gravada e suporte. Eu colocaria no README: 'travou? no pack tem aula de instalação do zero'. Objeção virando oferta.",
+      "rodada": 2,
+      "responde": "mauro",
+      "n": 11,
+      "t": 1793594028.1326497
+    },
+    {
+      "tipo": "fala",
+      "quem": "leo",
+      "texto": "Cuidado, Rita. Se eu baixo de graça e na primeira tela vocês me empurram 397, eu sinto que o grátis era pegadinha. Primeiro me deixa funcionar e ganhar algo. Depois oferece.",
+      "rodada": 2,
+      "responde": "rita",
+      "n": 12,
+      "t": 1793594028.3739042
+    },
+    {
+      "tipo": "fala",
+      "quem": "caio",
+      "texto": "O Léo resolveu a ordem: primeiro entrega, depois oferta. Proponho medir isso de verdade: link com rastreio em cada repositório e em cada vídeo. Em 60 dias a gente sabe se o grátis traz comprador ou só estrela.",
+      "rodada": 2,
+      "responde": "leo",
+      "n": 13,
+      "t": 1793594028.5752087
+    },
+    {
+      "tipo": "fala",
+      "quem": "mauro",
+      "texto": "Aceito o teste, com uma condição: três repositórios no máximo até ter número. Cinco ferramentas para manter, com issue, atualização do Windows e dúvida de instalação, comem o tempo que devia ir para vender o pack.",
+      "rodada": 2,
+      "responde": "caio",
+      "n": 14,
+      "t": 1793594028.7988515
+    },
+    {
+      "tipo": "rodada",
+      "numero": 3,
+      "titulo": "Proposta",
+      "n": 15,
+      "t": 1793594029.0492852
+    },
+    {
+      "tipo": "fala",
+      "quem": "presidente",
+      "texto": "Proposta do conselho: manter os repositórios, com instalação o mais simples possível, oferta só depois de a ferramenta funcionar, link rastreado em tudo e pausa nos novos depois do terceiro até medir 60 dias de vendas.",
+      "rodada": 3,
+      "responde": null,
+      "n": 16,
+      "t": 1793594029.2717526
+    },
+    {
+      "tipo": "fala",
+      "quem": "bia",
+      "texto": "Fechado. E cada repositório ganha dois vídeos: o Short do 'uau' e um tutorial curto. O tutorial já responde a dúvida da instalação antes de ela virar reclamação.",
+      "rodada": 3,
+      "responde": null,
+      "n": 17,
+      "t": 1793594029.5056677
+    },
+    {
+      "tipo": "voto",
+      "quem": "rita",
+      "n": 18,
+      "t": 1793594045.3854244
+    },
+    {
+      "tipo": "voto",
+      "quem": "bia",
+      "n": 19,
+      "t": 1793594045.6064813
+    },
+    {
+      "tipo": "voto",
+      "quem": "caio",
+      "n": 20,
+      "t": 1793594045.8456173
+    },
+    {
+      "tipo": "voto",
+      "quem": "leo",
+      "n": 21,
+      "t": 1793594046.061152
+    },
+    {
+      "tipo": "voto",
+      "quem": "mauro",
+      "n": 22,
+      "t": 1793594046.2827425
+    },
+    {
+      "tipo": "veredito",
+      "n": 23,
+      "t": 1793594046.5526347
+    }
+  ],
+  "votos": {
+    "rita": {
+      "voto": "sim",
+      "nota": 8.0,
+      "motivo": "O grátis é a melhor prova de que o pack entrega, desde que cada repositório leve a um próximo passo.",
+      "condicao": ""
+    },
+    "bia": {
+      "voto": "sim",
+      "nota": 9.0,
+      "motivo": "Uma ferramenta por semana vira série no Canal 2 e dá gancho pronto para os Shorts.",
+      "condicao": ""
+    },
+    "caio": {
+      "voto": "condicional",
+      "nota": 8.0,
+      "motivo": "É barato de testar e constrói reputação, mas precisa de número para continuar.",
+      "condicao": "links rastreados em todos os repositórios e vídeos, com revisão em 60 dias"
+    },
+    "leo": {
+      "voto": "sim",
+      "nota": 8.0,
+      "motivo": "Eu só confiaria em pagar 397 depois de ganhar algo útil de graça.",
+      "condicao": ""
+    },
+    "mauro": {
+      "voto": "condicional",
+      "nota": 6.0,
+      "motivo": "A ideia sobrevive, mas o público do GitHub pode não ser o comprador.",
+      "condicao": "parar em 3 repositórios até provar vendas vindas deles"
+    }
+  },
+  "veredito": {
+    "decisao": "sim",
+    "titulo": "Sim: o grátis vende, se vier antes da oferta e com número para provar",
+    "resumo": "O conselho vê os repositórios grátis como a prova de que a Fábrica entrega, e o Canal 2 como o caminho até o comprador certo. O risco é atrair quem nunca vai pagar e gastar tempo de manutenção, então o teste é limitado e medido.",
+    "condicoes": [
+      "A ferramenta funciona antes de qualquer oferta: o link do pack aparece só no fim do README e depois do tutorial",
+      "Link rastreado diferente em cada repositório e em cada vídeo",
+      "No máximo 3 repositórios até ter 60 dias de dados de venda"
+    ],
+    "riscos": [
+      "Público do GitHub que não compra: compensar puxando o tráfego pelo Canal 2, que fala com quem quer canal",
+      "Instalação travando iniciantes: tutorial em vídeo para cada ferramenta",
+      "Manutenção comendo o tempo de vender: limite de 3 ferramentas e respostas-padrão para dúvidas"
+    ],
+    "proximos_passos": [
+      "Dia 1: criar links rastreados (um por repositório e por vídeo) para a página do pack",
+      "Dia 2: colocar no fim de cada README a seção 'quer o canal inteiro no automático?'",
+      "Dias 3 a 5: gravar o Short e o tutorial do Ditado BR",
+      "Dia 6: publicar o conselho-de-ia como terceiro repositório",
+      "Dia 7: anotar a linha de base de visitas e vendas para comparar em 60 dias"
+    ],
+    "nota": 7.8
+  },
+  "atualizado": 1793594046.5526347
+}
